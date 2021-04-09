@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <script src="script.js"></script>
+    <title>JS Events</title>
+</head>
+
+<body class="bg-dark">
+    <h1 class="text-center m-5 text-light">DOMMONSTERS</h1>
+    <div class="row m-1">
+        <div class="col-md ">
+            <table class="table table-hover border bg-light">
+                <thead>
+                    <tr id="header">
+                        <th scope="col">Name</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Weight</th>
+                        <th scope="col">Img</th>
+                    </tr>
+                </thead>
+                <tbody id="table">
+                    <tr class="poke-row">
+                        <th scope="row">Bulbasaur</th>
+                        <td id="grass">Grass</td>
+                        <td>12lbs</td>
+                        <td>
+                            <image
+                                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png">
+                            </image>
+                        </td>
+                    </tr>
+                    <tr class="poke-row">
+                        <th scope="row">Charmander</th>
+                        <td>Fire</td>
+                        <td>12lbs</td>
+                        <td>
+                            <image
+                                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/4.png">
+                            </image>
+                        </td>
+                    </tr>
+                    <tr class="poke-row">
+                        <th scope="row">Totodile</th>
+                        <td>Water</td>
+                        <td>15bs</td>
+                        <td>
+                            <image
+                                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/158.png">
+                            </image>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md m-1">
+            <form class="bg-light p-3">
+                <fieldset>
+                    <legend>Register Your DOMMonster</legend>
+                    <div class="form-group row">
+                        <label for="pokeName" class="col-sm-1 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input name="pokeName" type="text" placeholder="pokemon name" class="form-control"
+                                id="pokeName">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="pokeName" class="col-sm-1 col-form-label">Type</label>
+                        <div class="col-sm-11">
+                            <input name="pokeType" type="text" placeholder="pokemon type" class="form-control mb-1"
+                                id="pokeType">
+                        </div>
+                        <label for="pokeWeight" class="col-sm-1 col-form-label">Weight</label>
+                        <div class="col-sm-11">
+                            <input name="pokeText" type="text" placeholder="pokemon weight" class="form-control"
+                                id="pokeWeight">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="pokeImg" class="col-sm-1 col-form-label">Img URL</label>
+                        <div class="col-sm-10">
+                            <input name="pokeImg" type="text" placeholder="pokemon img" class="form-control"
+                                id="pokeImg">
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
