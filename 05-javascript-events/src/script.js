@@ -1,10 +1,77 @@
 
 
+document.addEventListener("DOMContentLoaded", init)
+
+
+function init() {
+      // clickHandler()  
+      deleteRow()
+
+      // Grab the FORM add a "SUBMIT" eventListener
+      document.querySelector("#poke-form").addEventListener('submit', submitHandler)
+
+}
+
+// DELETE
+function deleteRow() {
+      //Get all of the rows
+      const allRows = document.querySelectorAll(".poke-row")
+      // Loop off the set (should be an [nodeList]) and "FOR EACH" item in the set, lets 
+      allRows.forEach(function(row){
+            // Here row is an argument, that stands for an individual item in the array
+            // add a click EVENTlistener
+            row.addEventListener("click", (event) => {
+                  // event.currentTarget is WHERE THE EVENTLISTENER WAS PLACED
+                  event.currentTarget.remove()
+            })
+      })
+
+}
+
+
+// CREATE 
+function submitHandler(event) {
+      // Every submit event needs to run event.preventDefault() so the page
+      // does not refresh 
+      event.preventDefault()
+
+      let name = event.target.pokeName.value
+      let type = event.target.pokeType.value
+      let weight = event.target.pokeWeight.value
+      let img = event.target.pokeImg.value
+
+      createNewRow(name, type, weight, img)
+
+
+      event.target.reset()
+
+      window.scrollTo(500, 0);
+}
+
+// function clickHandler() {
+//       //Grab the Table and add an "click" eventlistener 
+//       document.querySelector("#table").addEventListener('click', (event) => {
+//             //event.target
+//             // console.log(event.target.innerHTML)
+
+//             //event.currentTarget
+//             console.log(event.currentTarget)
+//       })
+      
+// }
+
+
+
+
 function createNewRow(name, type, weight, imageURL) {
     const newRow = document.createElement("tr")
           //added a new "poke-row" class name so we can select all of them
           newRow.className = "poke-row"
-          newRow.addEventListener('click', function(event){event.currentTarget.remove()})
+
+          newRow.addEventListener("click", (event) => {
+                  // event.currentTarget is WHERE THE EVENTLISTENER WAS PLACED
+                  event.currentTarget.remove()
+            })
 
     const tHead = document.createElement("th")
           tHead.innerText = name
