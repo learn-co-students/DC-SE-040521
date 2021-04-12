@@ -4,14 +4,14 @@
       "id": 1,
       "name": "bulbasaur",
       "weight": 110,
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
       "type": "grass",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
       "id": 2,
       "name": "ivysaur",
-      "weight": 20,
+      "weight": 30,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
       "type": "grass",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "venusaur",
-      "weight": 40,
+      "weight": 140,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
       "type": "grass",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
@@ -67,7 +67,7 @@
     {
       "id": 9,
       "name": "blastoise",
-      "weight": 30,
+      "weight": 60,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
       "type": "water",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
@@ -87,6 +87,38 @@
       "id": 20,
       "type": "electric",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+      "name": "PLeaseSubmitMon",
+      "weight": 22,
+      "type": "Psychic",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
+      "bio": "????",
+      "id": 21
+    },
+    {
+      "name": "NewNewPOke",
+      "weight": "122",
+      "type": "Grass",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png",
+      "bio": "????",
+      "id": 22
+    },
+    {
+      "name": "Turkeymon",
+      "weight": "1234",
+      "type": "Psychic",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
+      "bio": "????",
+      "id": 23
+    },
+    {
+      "name": "asdfsasdf",
+      "weight": "123",
+      "type": "Water",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
+      "bio": "????",
+      "id": 24
     }
   ]
 }
