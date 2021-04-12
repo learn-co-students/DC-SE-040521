@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script async defer src="script.js"></script>
+    <title>JS Events</title>
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <img class="logo mr-auto" id="pokemon-logo"
+            src="https://raw.githubusercontent.com/learn-co-curriculum/js-pokemon-search-practice-assignment/master/images/pokemon.png"
+            alt="">
+        <button id="pokeBtn" class="btn btn-danger">Get MAH MONSTERS</button>
+    </nav>
+    <div class="row m-3">
+        <div class="col-md mb-3">
+            <ul class="list-group">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
+
+
+        <div class="col-md">
+            <div class="card text-center">
+                <div class="card-header">
+                    Details
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="Card image cap">
+                    <h5 class="card-title">[replace me with pokemon name]</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <button class="btn btn-primary">Feed Pokemon</button>
+                </div>
+                <div class="card-footer">
+                    <h5>10 lbs</h5>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row m-4">
+        <div class="col-md">
+
+            <form id="poke-form" class="bg-light m-3 p-3">
+                <h3 class="mb-2">Register a new Monster</h3>
+                <div class="form-group">
+                    <label for="pokemon-name">Name</label>
+                    <input name="pokeName" type="text" class="form-control" id="pokemon-name" placeholder="Enter a name" >
+                </div>
+    
+                <div class="form-group">
+                    <label for="pokemon-type">Type</label>
+                    <select class="form-control">
+                        <option>Fire</option>
+                        <option>Water</option>
+                        <option>Grass</option>
+                        <option>Bug</option>
+                        <option>Psychic</option>
+                        <option>Fighting</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="pokemon-weight">Weight</label>
+                    <input name="pokeWeight" type="number" class="form-control" id="pokemon-weight" placeholder="0">
+                </div>
+    
+                <div class="form-group">
+                    <label for="pokemon-image">Image</label>
+                    <input name="pokeName" type="text" class="form-control" id="pokemon-image" placeholder="Enter an image URL">
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
