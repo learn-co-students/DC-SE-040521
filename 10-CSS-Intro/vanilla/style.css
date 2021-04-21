@@ -1,0 +1,29 @@
+.box {
+  background: #eae6da;
+  border: 2px #da6758 solid;
+  padding: 20px;
+  width: 500px;
+  margin: 20px 50px;
+}
+
+body {
+  background-color: #21211f;
+}
+
+.flex-container {
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+  display: flex;
+}
+
+.item {
+  background-color: #325234;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
