@@ -14,6 +14,8 @@
 | Toy Tale Review 🧸 | [Video](https://youtu.be/Cfv51CS3eSs)|
 | CC Review | [Video](https://youtu.be/SKyJPWAXZag)|
 | Project Setup | [Video](https://youtu.be/--nl66VaC5s)|
+| Intro to CSS | [Video](https://youtu.be/FbUuvKaTWCI)|
+
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
