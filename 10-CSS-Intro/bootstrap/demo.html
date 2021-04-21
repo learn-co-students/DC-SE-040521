@@ -14,11 +14,8 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container">
             <h4 class="navbar-brand">CoolApp</h4>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>   
         </div>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse" id="#navbarCollapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <p class="nav-link">Home</p>
@@ -35,18 +32,42 @@
 
     <div class="container main">
         <div class="row">
-            <div class="col">
-                <h1 class="bg-light">First Column</h1>
+            <div class="col mb-3 border border-dark m-3 p-4">
+                <form>
+                    <div class="form-group">
+                        <h3>Submit a cat for adopt! </h3>
+                        <label for="exampleInputEmail1">Cat Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
             <div class="col">
-                <form class="form-control bg-light">
-                    <input type="text" placeholder="Form input">
-                </form>
+                <div class="card text-center">
+                    <div class="card-header">
+                        Featured
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        2 days ago
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>
