@@ -1,0 +1,19 @@
+.logo {
+  max-height: 80px;
+}
+
+.list-group-item {
+  transition: 0.5s;
+}
+
+.list-group-item:hover {
+  background-color: #1f9bcf;
+  color: white;
+  transform: translate(200px);
+}
+
+.card-img-top {
+  max-width: 100px;
+  max-height: 100px;
+  align-content: center;
+}
