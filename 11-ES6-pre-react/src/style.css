@@ -3,13 +3,13 @@
 }
 
 .list-group-item {
-  transition: 0.5s;
+  transition: 0.8s;
 }
 
 .list-group-item:hover {
   background-color: #1f9bcf;
   color: white;
-  transform: translate(200px);
+  transform: translate(10px, 10px);
 }
 
 .card-img-top {

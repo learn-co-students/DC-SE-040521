@@ -9,38 +9,6 @@
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
-      "id": 2,
-      "name": "ivysaur",
-      "weight": 30,
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
-      "type": "grass",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-    },
-    {
-      "id": 3,
-      "name": "venusaur",
-      "weight": 140,
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
-      "type": "grass",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-    },
-    {
-      "id": 4,
-      "name": "charmander",
-      "weight": 10,
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
-      "type": "fire",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-    },
-    {
-      "id": 5,
-      "name": "charmeleon",
-      "weight": 20,
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
-      "type": "fire",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-    },
-    {
       "id": 6,
       "name": "charizard",
       "weight": 30,
