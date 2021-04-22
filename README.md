@@ -15,6 +15,7 @@
 | CC Review | [Video](https://youtu.be/SKyJPWAXZag)|
 | Project Setup | [Video](https://youtu.be/--nl66VaC5s)|
 | Intro to CSS | [Video](https://youtu.be/FbUuvKaTWCI)|
+| ES6: Pre-React | [Video](https://youtu.be/VCEtBqPoA6s)|
 
 
 1. Clone the repo.
