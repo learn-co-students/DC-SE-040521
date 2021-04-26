@@ -1,0 +1,8 @@
+li {
+  margin: 20px;
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+}
