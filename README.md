@@ -16,6 +16,7 @@
 | Project Setup | [Video](https://youtu.be/--nl66VaC5s)|
 | Intro to CSS | [Video](https://youtu.be/FbUuvKaTWCI)|
 | ES6: Pre-React | [Video](https://youtu.be/VCEtBqPoA6s)|
+| Intro to React | [Video](https://youtu.be/ugbY_Ic1BCs)|
 
 
 1. Clone the repo.
