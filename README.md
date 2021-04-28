@@ -18,6 +18,8 @@
 | ES6: Pre-React | [Video](https://youtu.be/VCEtBqPoA6s)|
 | Intro to React | [Video](https://youtu.be/ugbY_Ic1BCs) --- [Alt Video](https://youtu.be/vIEggHqd5Wo)|
 | Props and State | [Video](https://youtu.be/1z1BZVv19Zw) --- [Alt Video 1](https://youtu.be/YNUgs9eKR0M) --- [Alt Video 2](https://youtu.be/OR5wBua3748)|
+| State and Events | [Video](https://youtu.be/m6-sDPF5hHA) --- [Alt Video 1](https://youtu.be/OR5wBua3748)|
+
 
 
 1. Clone the repo.
