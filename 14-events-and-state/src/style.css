@@ -1,0 +1,6 @@
+.card {
+  min-width: 3rem;
+  max-width: 15rem;
+  min-height: 3rem;
+  max-height: 35rem;
+}
