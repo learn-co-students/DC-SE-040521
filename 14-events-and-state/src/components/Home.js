@@ -9,7 +9,7 @@ const Home = (props) => {
                     <span className="lead text-primary">A cool app to see cool painting things</span>
         
                     <div className="mt-4">
-                        <button className="btn btn-primary btn-lg m-2">
+                        <button onClick={() => props.changeToPaintings()} className="btn btn-primary btn-lg m-2">
                             <span>See the Paintings</span>
                         </button>
                     </div>
