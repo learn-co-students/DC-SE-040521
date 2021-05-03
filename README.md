@@ -21,7 +21,7 @@
 | State and Events | [Video](https://youtu.be/m6-sDPF5hHA) --- [Alt Video 1](https://youtu.be/OR5wBua3748)|
 | Lifecycle and Forms | [Video](https://youtu.be/JQ3q0jA_uzY) --- [Repo](https://github.com/adamwjo/lifecycle-forms-code-along)|
 | Thinking in React | [Video](https://youtu.be/gdegAZWGCKM) --- [Repo](https://github.com/adamwjo/thinking-in-react-code-along)|
-| Pets Review 🐶 | [Video](https://youtu.be/iWtERn8UFXA)|
+| Pets Review 🐶 | [Video pt.1](https://youtu.be/iWtERn8UFXA) --- [Video pt.2]() |
 
 
 
