@@ -23,6 +23,7 @@
 | Thinking in React | [Video](https://youtu.be/gdegAZWGCKM) --- [Repo](https://github.com/adamwjo/thinking-in-react-code-along)|
 | Pets Review 🐶 | [Video pt.1](https://youtu.be/iWtERn8UFXA) --- [Video pt.2](https://youtu.be/t48nyFGzGTg) |
 | Sushi Saga Review 🍣 | [Video](https://youtu.be/XiH_XJ8TGYU)|
+| CC Review | [Video](https://youtu.be/2XCxNWOTDLc)|
 
 
 
