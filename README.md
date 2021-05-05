@@ -24,6 +24,8 @@
 | Pets Review 🐶 | [Video pt.1](https://youtu.be/iWtERn8UFXA) --- [Video pt.2](https://youtu.be/t48nyFGzGTg) |
 | Sushi Saga Review 🍣 | [Video](https://youtu.be/XiH_XJ8TGYU)|
 | CC Review | [Video](https://youtu.be/2XCxNWOTDLc)|
+| React Stocks Review 📈 | [Video](https://youtu.be/iATLqkXeBKM)|
+
 
 
 
