@@ -25,7 +25,7 @@
 | Sushi Saga Review 🍣 | [Video](https://youtu.be/XiH_XJ8TGYU)|
 | CC Review | [Video](https://youtu.be/2XCxNWOTDLc)|
 | React Stocks Review 📈 | [Video](https://youtu.be/iATLqkXeBKM)|
-| CC Review II | [Video](https://youtu.be/iOZ7VAjKJiM)|
+| CC Review II | [Video](https://youtu.be/cRRNuSQLFjI)|
 
 
 
