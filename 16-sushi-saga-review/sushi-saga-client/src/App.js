@@ -3,7 +3,7 @@ import SushiContainer from './containers/SushiContainer';
 import Table from './containers/Table';
 
 // Endpoint!
-const API = "http://localhost:3001/sushis"
+const API = "http://localhost:3000/sushis"
 
 class App extends Component {
 
