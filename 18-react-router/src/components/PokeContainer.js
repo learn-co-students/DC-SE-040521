@@ -3,6 +3,7 @@ import React from 'react'
 
 //Components
 import { Card } from './Card'
+import { Details } from './Details'
 import Form from './Form'
 
 export default class PokeContainer extends React.Component {
