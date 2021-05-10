@@ -1,6 +1,14 @@
 .card {
-  min-width: 25em;
+  min-width: 25rem;
   max-width: 25rem;
   min-height: 25rem;
   max-height: 25rem;
+}
+
+.detail-img {
+  min-width: 15rem;
+  max-width: 15rem;
+  min-height: 15rem;
+  max-height: 15rem;
+  float: left;
 }

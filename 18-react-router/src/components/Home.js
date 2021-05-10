@@ -1,4 +1,5 @@
-  
+import { Link } from 'react-router-dom'
+
 const Home = (props) => {
     
     return (
@@ -9,9 +10,11 @@ const Home = (props) => {
                     <span className="lead text-primary">A cool app to see cool pokemon things</span>
         
                     <div className="mt-4">
-                        <button onClick={props.changeToPokemon} className="btn btn-primary btn-lg m-2">
-                            <span>See the Pokemonsters</span>
-                        </button>
+                        <Link to="/pokemons">
+                            <button  className="btn btn-primary btn-lg m-2">
+                                <span>See the Pokemonsters</span>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import { Route, Switch, Link } from 'react-router-dom'
 
 //Components
 import Navbar  from './Navbar'
 import PokeContainer from './PokeContainer'
 import Home from './Home'
+import { Details } from './Details'
 
 const BASE_URL = "http://localhost:3001/pokemon/"
 
@@ -12,7 +14,6 @@ export default class App extends Component {
  
 
   state = {
-    display: "Home",
     searchText: "",
     pokemons: []
   }
@@ -28,15 +29,7 @@ export default class App extends Component {
     this.setState({pokemons: [pokemonObj, ...this.state.pokemons]})
   }
 
-  // Changes the display to the pokemon container
-  changeToPokemon = () => {
-    this.setState({display: "Pokemon"})
-  }
 
-   // Changes the display to the Home page
-  changeToHome = () => {
-    this.setState({display: "Home"})
-  }
 
   // Takes in user input from the navbar and sets it to state
   handleSearchText = (data) => {
@@ -89,9 +82,28 @@ export default class App extends Component {
 
     return (
       <div className="bg-dark">
-        <Navbar handleSearchText={this.handleSearchText} display={this.state.display} changeToHome={this.changeToHome} />
-        { this.state.display === "Home" ? <Home changeToPokemon={this.changeToPokemon}/> : null }
-        { this.state.display === "Pokemon" ? <PokeContainer feedPokemon={this.feedPokemon} deletePokemon={this.deletePokemon} createPokemon={this.createPokemon} pokemons={filteredPokemon}/> : null}
+        <Navbar handleSearchText={this.handleSearchText} display={this.state.display}/>
+
+        <Switch>
+
+          <Route path="/pokemons/:id" render={(props) => {
+           
+            const pokeId = props.match.params.id
+
+            const pokeData = this.state.pokemons.find(poke => poke.id == pokeId)
+
+            return pokeData ? <Details pokeData={pokeData} /> : null
+          }}/>
+
+          <Route path="/pokemons">
+            <PokeContainer feedPokemon={this.feedPokemon} deletePokemon={this.deletePokemon} createPokemon={this.createPokemon} pokemons={filteredPokemon}/>
+          </Route>
+
+          <Route path="/" component={Home}/>
+
+        </Switch>
+
+
       </div>
     )
   }
