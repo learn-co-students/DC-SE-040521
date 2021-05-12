@@ -9,7 +9,7 @@
 | Intro to the DOM 🖥| [Video](https://youtu.be/R_-dZZyaZ8Q) --- [Alt Video](https://youtu.be/FGI0B-sYtRA) ---  [Alt Video pt.2](https://youtu.be/XEOIjTf3fvk)|
 | JavaScript Events 📞 | [Video](https://youtu.be/jI5ZiJO7iac)|
 | Server Communication Pt. 1 🎾 | [Video](https://youtu.be/3kv4PfXWkWM)|
-| Server Communication Pt. 2 🎾🎾 | [Video](https://youtu.be/kVDtSpJtIq0)|
+| Server Communication Pt. 2 🎾🎾  | [Video](https://youtu.be/kVDtSpJtIq0)|
 | Fetch Dog CEO Review 🐶 | [Video](https://youtu.be/tyWp3ZQyD2g)|
 | Toy Tale Review 🧸 | [Video](https://youtu.be/Cfv51CS3eSs)|
 | CC Review | [Video](https://youtu.be/SKyJPWAXZag)|
