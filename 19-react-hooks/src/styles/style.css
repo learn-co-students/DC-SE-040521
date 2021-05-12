@@ -1,0 +1,21 @@
+.card {
+  min-width: 25em;
+  max-width: 25rem;
+  min-height: 25rem;
+  max-height: 25rem;
+}
+
+.detail-img {
+  min-width: 25rem;
+  max-width: 25rem;
+  min-height: 25rem;
+  max-height: 25rem;
+}
+
+body {
+  background-color: #343a40;
+}
+
+.detail-card {
+  min-width: 1500px;
+}
