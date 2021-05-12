@@ -26,6 +26,8 @@
 | CC Review | [Video](https://youtu.be/2XCxNWOTDLc)|
 | React Stocks Review 📈 | [Video](https://youtu.be/iATLqkXeBKM)|
 | CC Review II | [Video](https://youtu.be/cRRNuSQLFjI)|
+| React Router | [Video](https://youtu.be/pmKgKSq4mxU)|
+
 
 
 
