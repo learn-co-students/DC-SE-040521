@@ -31,6 +31,12 @@
 | Deployment | [Video](https://youtu.be/zrebv5fl4bQ)|
 
 
+## Phase 3
+## Mod 4
+| Topic            | Code                | Video                
+| -----            | ----                | -----               
+| Intro to Ruby| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/20-intro-to-ruby) | [Video](https://youtu.be/_HrNOAaeZaQ) |
+
 
 
 
