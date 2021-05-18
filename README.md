@@ -36,6 +36,7 @@
 | -----            | ----                | -----               
 | Intro to Ruby| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/20-intro-to-ruby) | [Video](https://youtu.be/_HrNOAaeZaQ) |
 | OO Ruby| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/21-oo-ruby) | [Video](https://youtu.be/eT0krBTIwrc) |
+| OO Cash Register Review| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/22-oo-cash-register) | [Video](https://youtu.be/KFuxk19fal8) |
 
 
 
