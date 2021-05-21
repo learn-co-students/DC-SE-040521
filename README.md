@@ -39,6 +39,7 @@
 | OO Cash Register Review| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/22-oo-cash-register) | [Video](https://youtu.be/KFuxk19fal8) |
 | OO One to Many| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/23-oo-one-to-many) | [Video](https://youtu.be/ke4GZs0ODFI) |
 | OO Many to Many| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/24-oo-relationship-has-many-to-many) | [Video](https://youtu.be/N2X7XFegakQ) |
+| SQL| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/25-sql) | [Video](https://youtu.be/_9AGFCu8HoM) |
 
 
 
