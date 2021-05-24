@@ -41,6 +41,7 @@
 | OO Many to Many| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/24-oo-relationship-has-many-to-many) | [Video](https://youtu.be/N2X7XFegakQ) |
 | SQL| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/25-sql) | [Video](https://youtu.be/_9AGFCu8HoM) |
 | Into to Active Record| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/26-intro-to-active-record) | [Video](https://youtu.be/olTqpzKWLt8) |
+| Active Record Associations| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/27-active-record-associations) | [Video](https://youtu.be/XN-alMCj5tM) |
 
 
 

@@ -1,0 +1,64 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (5.2.4.5)
+      activesupport (= 5.2.4.5)
+    activerecord (5.2.4.5)
+      activemodel (= 5.2.4.5)
+      activesupport (= 5.2.4.5)
+      arel (>= 9.0)
+    activerecord-reset-pk-sequence (0.2.1)
+    activesupport (5.2.4.5)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    arel (9.0.0)
+    coderay (1.1.3)
+    concurrent-ruby (1.1.8)
+    faker (2.16.0)
+      i18n (>= 1.6, < 2)
+    i18n (1.8.9)
+      concurrent-ruby (~> 1.0)
+    method_source (1.0.0)
+    minitest (5.14.4)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    pry (0.14.0)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
+    rake (13.0.3)
+    require_all (3.0.0)
+    ruby2_keywords (0.0.4)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
+    sinatra-activerecord (2.0.22)
+      activerecord (>= 4.1)
+      sinatra (>= 1.0)
+    sqlite3 (1.4.2)
+    thread_safe (0.3.6)
+    tilt (2.0.10)
+    tzinfo (1.2.9)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  activerecord (~> 5.2)
+  activerecord-reset-pk-sequence
+  faker
+  pry
+  rake
+  require_all
+  sinatra-activerecord
+  sqlite3
+
+BUNDLED WITH
+   2.2.6
