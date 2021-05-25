@@ -42,6 +42,7 @@
 | SQL| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/25-sql) | [Video](https://youtu.be/_9AGFCu8HoM) |
 | Into to Active Record| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/26-intro-to-active-record) | [Video](https://youtu.be/olTqpzKWLt8) |
 | Active Record Associations| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/27-active-record-associations) | [Video](https://youtu.be/XN-alMCj5tM) |
+| Magazines Practice Code Challenge| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/28-magazines-practice-code-challenge) | [Video](https://youtu.be/wF4vTj5Vh1o) |
 
 
 
