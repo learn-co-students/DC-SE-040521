@@ -44,6 +44,7 @@
 | Active Record Associations| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/27-active-record-associations) | [Video](https://youtu.be/XN-alMCj5tM) |
 | Magazines Practice Code Challenge| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/28-magazines-practice-code-challenge) | [Video](https://youtu.be/wF4vTj5Vh1o) |
 | Rack CRUD | [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/29-rack-crud) | [Video](https://youtu.be/YihyCnWMKZM) |
+| Rack Associations | [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/30-rack-associations) | [Video](https://youtu.be/f2hdFVd54K8) |
 
 
 
