@@ -48,7 +48,10 @@
 
 
 
-
+## Phase 4
+| Topic            | Code                | Video                
+| -----            | ----                | -----               
+| Intro to Rails| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/31-intro-to-rails) | [Video](https://youtu.be/XZPKFQ8ebqA) |
 
 
 
