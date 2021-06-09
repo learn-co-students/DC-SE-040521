@@ -52,7 +52,7 @@
 | Topic            | Code                | Video                
 | -----            | ----                | -----               
 | Intro to Rails| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/31-intro-to-rails) | [Video](https://youtu.be/XZPKFQ8ebqA) |
-
+| Rails Forms & CRUD| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/32_rails_forms_CRUD) | [Video](https://youtu.be/WIGcLcVweus) |
 
 
 

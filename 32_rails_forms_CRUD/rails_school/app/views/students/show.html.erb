@@ -1,0 +1,8 @@
+<h1>Student show page</h1>
+
+<h3><%= @student.name %></h3>
+<p>Class of <%= @student.year %></p>
+<p>Age: <%= @student.age %></p>
+<p>Quote: <%= @student.quote %></p>
+
+<%= button_to "Delete a student", student_path(@student.id), method: :delete %>
