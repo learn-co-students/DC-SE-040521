@@ -1,0 +1,12 @@
+<h1>Create a class</h1>
+
+<%= form_for @student_teacher do |f| %>
+    <%= f.text_field :name %>
+    <%= f.text_field :location %>
+    <%= f.collection_select :student_id, @students, :id, :name %>
+    <%= f.collection_select :teacher_id, @teachers, :id, :name %>
+
+    <%= f.submit %>
+<% end %>
+
+<%# params = {name: "Herbology", location: "Hogwarts", student_id: 2, teacher_id: 5} %>

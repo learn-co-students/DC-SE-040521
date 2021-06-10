@@ -1,0 +1,12 @@
+<h1>Teacher show page</h1>
+
+<h3><%= @teacher.name %></h3>
+<p><%= @teacher.tenure %> years of service</p>
+<p>Specialty: <%= @teacher.specialty %></p>
+
+<h3>Students</h3>
+<ul>
+    <% @teacher.students.each do |student| %>
+        <li><%= student.name %></li>
+    <% end %>
+</ul>
