@@ -1,0 +1,8 @@
+<h1>Teachers index page</h1>
+
+   <ul>
+   <% @teachers.each do |teacher| %>
+        <li><%= link_to teacher.name, teacher_path(teacher.id) %></li>
+    <% end %>
+    </ul>
+
