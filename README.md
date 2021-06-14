@@ -55,6 +55,7 @@
 | Rails Forms & CRUD| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/32_rails_forms_CRUD) | [Video](https://youtu.be/WIGcLcVweus) |
 | Rails Associations| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/33-rails-associations) | [Video](https://youtu.be/GAjEOp3K-iE) |
 | Rails Vaildations| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/34-rails-validations) | [Video](https://youtu.be/mx1FOQwpq4g) |
+| Rails Mock CC Review| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/35-rails-mock-cc-review) | [Video](https://youtu.be/FCwG3As0ZR0) |
 
 
 1. Clone the repo.

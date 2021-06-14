@@ -1,0 +1,7 @@
+<h1>All The Campers</h1>
+
+<ul>
+  <% @campers.each do |camper| %>
+    <li><%= link_to camper.name, camper_path(camper.id) %></li>
+  <% end %>
+</ul>
