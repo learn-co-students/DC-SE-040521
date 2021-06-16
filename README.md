@@ -57,6 +57,8 @@
 | Rails Vaildations| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/34-rails-validations) | [Video](https://youtu.be/mx1FOQwpq4g) |
 | Rails Mock CC Review| [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/35-rails-mock-cc-review) | [Video](https://youtu.be/FCwG3As0ZR0) |
 | Rails as an API [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/36-rails-as-an-api) | [Video](https://youtu.be/ytWZc-lX5vM) |
+| Rails Auth [Code](https://github.com/learn-co-students/DC-SE-040521/tree/main/37-rails-auth) | [Video](https://youtu.be/WMfchB6YlkU) |
+
 
 1. Clone the repo.
 2. Run `git pull` once the lecture code is pushed.
