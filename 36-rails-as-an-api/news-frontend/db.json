@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "id": 2,
+      "title": "Fluff Daddy",
+      "author": "F. Diddy",
+      "description": "Breaking: Puff Daddy changes his name yet again, this time to help promote his line of extremely fluffy coats",
+      "image": "https://i.redd.it/l0uj355oxv341.jpg",
+      "likes": 50
+    },
+    {
+      "id": 6,
+      "title": "We've had it all wrong",
+      "author": "Gabriel Iglesias",
+      "description": "In recent news, scientists discovered that the fluffy animals we've commonly refered to as 'Hamsters' are actually really named 'Hamstars'. History and science books are being updated as we speak.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg/1920px-Pearl_Winter_White_Russian_Dwarf_Hamster_-_Front.jpg",
+      "likes": 9005
+    },
+    {
+      "title": "Fox Runs",
+      "author": "Raffy",
+      "description": "This fox is great",
+      "image": "https://randomfox.ca/images/98.jpg",
+      "likes": 17,
+      "id": 52
+    },
+    {
+      "title": "Temp",
+      "author": "Raffy",
+      "description": "gfdsdf",
+      "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--ZDtqrBOj--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://github.com/damiancipolat/js_vs_memes/blob/master/doc/js_thanks.png%3Fraw%3Dtrue",
+      "likes": 0,
+      "id": 53
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- The text on the tab -->
+    <title>Daily News.</title>
+    <!-- The icon on the tab -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- loading the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- loading the javascript file -->
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="edition-info">
+        <div id="left">
+            <p class="flatiron">Flatiron School</p>
+            <p>New York, New York</p>
+        </div>
+        <div id="right">
+            <p class="date">
+                <script> document.write(new Date().toDateString())</script>
+            </p>
+            <p>Gauranteed Circulation Vol. 1</p>
+        </div>
+    </div>
+    <header>
+        <div>
+            <h1 id="news-co">The Daily NEWS</h1>
+            <h2><span id="earth">🌎</span>Everyday. All day.</h2>
+            <div class="toggle-switch">
+                <input type="checkbox" id="toggle-dark-mode" />
+                <label for="toggle-dark-mode"></label>
+            </div>
+        </div>
+    </header>
+    <div id="main">
+        <div id="collection">
+        </div>
+
+        <div class="card ad">
+            <span>AD</span>
+            <div class="img-container">
+                <img src="https://www.cars.com/static/entry/4608db3f9f46/images/GEICO-white-withGecko.png"
+                    alt="Raffy" />
+            </div>
+            <div class="content">
+                <div>
+                    <p class='description'>15 seconds could save you 15% or more in car insurance with GEICO!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <hr>
+    <form id="article-form">
+        <label for="title">TITLE</label>
+        <input type="text" name="title" required />
+
+        <label for="author">AUTHOR</label>
+        <input type="text" name="author" required />
+
+        <label for="description">Description</label>
+        <textarea name="description" required></textarea>
+
+        <label for="url">IMAGE</label>
+        <input type="text" name="url" required />
+
+        <input type="submit" value="Distribute" />
+    </form>
+
+    <audio controls>
+        <source src="audio/2020-10-27_-_Retro_News_At_Nine_-_www.FesliyanStudios.com_Steve_Oxen.mp3" type="audio/mpeg">
+    </audio>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+<h1>Create a student</h1>
+
+<%# byebug %>
+
+<% if flash[:errors] %>
+    <% flash[:errors].each do |error| %>
+        <p><%= error %></p>
+    <% end %>
+<% end %>
+
+<%= render "form" %>
